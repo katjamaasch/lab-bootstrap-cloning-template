@@ -6,8 +6,8 @@
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+      content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./style/index.css">
 
@@ -19,97 +19,87 @@
       does not mis-format this specific file -->
     <!-- prettier-ignore -->
     <header>
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-        <img src="/images/logo.svg" width="80" height="80" alt="" loading="lazy">
+    <nav class="navbar navbar-light bg-white p-0 navcustommargin">
+        <img src="/images/logo.svg" width="100" alt="logo" loading="lazy">
       </a>
-      <div>
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Showcase <span class="sr-only">(current)</span></a> </li>
+            <a class="nav-link navbar" href="#">Showcase <span class="sr-only">(current)</span></a> </li>
             <li class="nav-item"> 
-            <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a> </li>
+            <a class="nav-link navbar" href="#">Services <span class="sr-only">(current)</span></a> </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a> </li>
+            <a class="nav-link navbar" href="#">About <span class="sr-only">(current)</span></a> </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Careers <span class="sr-only">(current)</span></a> </li>
+              <a class="nav-link navbar" href="#">Careers <span class="sr-only">(current)</span></a> </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Labs <span class="sr-only">(current)</span></a> </li>
+                <a class="nav-link navbar" href="#">Labs <span class="sr-only">(current)</span></a> </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a> </li>
+                  <a class="nav-link navbar" href="#">Contact<span class="sr-only">(current)</span></a> </li>
         </ul>
     </nav>
-  </header>
-  <div class="container my-5">
-  <h1>Your go-to digital agency</h1>
-    <p>Significa is a digital design-led agency mainly <br> focused on Product
+  <div class="container h1custom">
+  <h1>Your go-to <br> digital agency</h1>
+    <p class="h1followtextcustom">Significa is a digital design-led agency mainly <br> focused on Product
       Development.</p>
     </div>
-
-  </div>
-  <div class="container">
-      <div class="row">
-
-      
-
-        <div class="col-3 card border-0 " style="width: 18rem;">
-        <img src="./images/2.png" class="card-img-top shadow  mb-60 bg-white" alt="...">
-        <div class="card-body">
+  </header>
+  <div class="row container leftmargincustom">
+    <!--Why does it not work with col-4 for each card?-->
+    <!--How can I eliminate the shadow on the left and right side of the cards?-->
+        <div class="col-3 card border-0 p-0 individualcardscustom">
+        <img src="./images/2.png" class="card-img-top shadow  mb-40 bg-white rounded-0" alt="Smartphones">
+        <div class="card-body pl-0">
         <h5 class="card-title">Oopsie for users — Your favourite food, one click away!</h5>
         <p class="card-text">Business Analysis, Product Management, Consultancy & 5 others Opennode — Bitcoin, for everyday.</p>
         </div>
         </div>
 
-
-        <div class="col-3 card border-0 " style="width: 18rem;">
-        <img src="./images/1.png" class="card-img-top shadow mb-60 bg-white" alt="...">
-        <div class="card-body">
+        <div class="col-3 card border-0 p-0 individualcardscustom">
+        <img src="./images/1.png" class="card-img-top shadow mb-40 bg-white rounded-0" alt="Smartphone Interfaces">
+        <div class="card-body pl-0">
         <h5 class="card-title">Opennode — Bitcoin, for everyday.</h5>
         <p class="card-text">Business Analysis, Product Management, Consultancy & 5 others </p>
         </div>
         </div>
         
-        
-        <div class="col-3 card border-0 " style="width: 18rem;">
-        <img src="./images/3.png" class="card-img-top shadow mb-60 bg-white" alt="...">
-        <div class="card-body">
+        <div class="col-3 card border-0 p-0 individualcardscustom">
+        <img src="./images/3.png" class="card-img-top shadow mb-40 bg-white rounded-0" alt="Pageviewer">
+        <div class="card-body pl-0">
           <h5 class="card-title">UI/UX, Front End, Front End AKASHA — Open systems to
             expand our collective mind</h5>
           <p class="card-text">UI/UX, Front End, Illustration</p>
         </div>
       </div>
-    </div>
   </div>
-  <div class="container">
-    <div class="row">
-<div class="col-4">We build digital
-  products</div>
-  <div class="col-8">Having a design-led approach to what we do defines who we are. We
+  
+  <section class="container leftmargincustom5">
+    <div class="row topmargincustom">
+      <div class="col-5 my-5 pl-0"> <h3 class="customh3">We build digital <br> products </h3></div>
+      <div class="col-7 my-5"><p class="customp">Having a design-led approach to what we do defines who we are. We
     take on products from inception to launch, from business model to people's
-    pocket, from wireframe to continuous deployment.</div>
+    pocket, from wireframe to continuous deployment.</p></div>
     </div>
-    <div class="row">
-      <div class="col">
 
-      </div>
-<div class="col">
-  <h5>Strategy</h5>
-  <ul class="list-group">
-    <li class="list-group-item border-0"> 
-      UX research </li>
-      <li class="list-group-item border-0"> 
-        Business strategy </li>
-        <li class="list-group-item border-0"> 
-          Brand strategy </li>
+    <div class="row">
+
+      <div class="col leftmargincustom2">
+      <h5 class="customh5 mb-3">Strategy</h5>
+        <ul class="list-group customcompetencieslist">
           <li class="list-group-item border-0"> 
-            Product strategy </li>
+          UX research </li>
             <li class="list-group-item border-0"> 
-              Product management </li>
-              </ul> 
+            Business strategy </li>
+              <li class="list-group-item border-0"> 
+              Brand strategy </li>
+                <li class="list-group-item border-0"> 
+                Product strategy </li>
+                  <li class="list-group-item border-0"> 
+                  Product management </li>
+                  </ul> 
                 </div>
 <div class="col">
-  <h5>Product design</h5>
-  <ul class="list-group">
+  <h5 class="customh5 mb-3">Product design</h5>
+  <ul class="list-group customcompetencieslist">
     <li class="list-group-item border-0"> 
       Product design </li>
        <li class="list-group-item border-0"> 
@@ -120,12 +110,16 @@
             Illustration </li>
             <li class="list-group-item border-0"> 
               Motion & Video </li>
+                
+  </ul>
+  <ul>
+    <li class="addedlink"><a href="#">View services <span class="arrow">→</span></a></li></li>
   </ul>
     </div>
 
     <div class="col">
-      <h5>Development</h5>
-      <ul class="list-group">
+      <h5 class="customh5 mb-3">Development</h5>
+      <ul class="list-group customcompetencieslist">
         <li class="list-group-item border-0"> 
           Front-end engineering </li>
            <li class="list-group-item border-0"> 
@@ -137,61 +131,78 @@
       </ul>
         </div>
     </div>
-        <a href="#">View services</a>
 
-      </div>
-
-      <div class="container">
-        <div class="jumbotron row">
+    </section>
+  <section>
+        <div style="background-color:rgb(14, 15, 14) !important"; class="jumbotron row customjumbotron">
           <div class="col-4">
-            What's new on <br> Significa Labs
+            <p class="significalabsnewsheader">What's new on <br> Significa Labs</p>
           </div>
 
-          <div class="col-8">
+          <div class="col-6 mr-3 significalabsnews">
             <p class="lead">Automating releases for UI Kits — How to automate release logs and builds for your style guides</p>
-            <p>Tutorial on Medium </p>
+            <p class="source">Tutorial on Medium</p>
             <p class="lead">An iceberg sank the Titanic — But what’s that got to do with text hierarchy?</p>
-            <p>Article on Medium </p>
+            <p class="source">Article on Medium </p>
             <p class="lead">On creating synergies — Sharing without compromising our identity</p>
-            <p>Article on Medium </p>
-            <a href="">Enter the Lab</a>
+            <p class="source">Article on Medium </p>
+            <p class="margintop"><a href="" class="greylink">Enter the Lab <span class="arrow">→</span></a></p>
           </div>
         </div>
-      </div>
-      <div class="container">
-      <div class="row"> 
-        <div class="col-4">Drop by, we're hiring.</div>
-        <div class="col-8"><p>We are an open-minded, open-hearted team that loves the thrill
+
+      <div class="container leftmargincustom">
+      <div class="row topmargincustom"> 
+        <div class="col-5 my-5 pl-0"><h3 class="customh3">Drop by,<br> we're hiring.</h3></div>
+        <div class="col-7 my-5"><p class="customp">We are an open-minded, open-hearted team that loves the thrill
           of creating exciting new projects. Drop us a line if you’re passionate and
           talented to do everything you set your mind to.</p>
-        <a href="">View careers</a>
+          <div class="addedlink2"><a href="#">View careers <span class="arrow">→</span></a></div>
       </div>
+      </section>
+
+      <div class="row leftmargincustom rightmargincustom"> 
+        <div class="col-4"><img src="./images/4.png" alt="scrapbook and laptop" class="w-100"></div>
+        <div class="col-4"><img src="./images/5.png" alt="workplace" class="w-100"></div>
+        <div class="col-4"><img src="./images/6.png" alt="colleagues" class="w-100"></div>
       </div>
 
-      <div class="row"> 
-        <div class="col-3"><img src="./images/4.png" alt="scrapbook and laptop" class="w-100"></div>
-        <div class="col-3"><img src="./images/5.png" alt="workplace" class="w-100"></div>
-        <div class="col-3"><img src="./images/6.png" alt="colleagues" class="w-100"></div>
       </div>
-
-      </div>
-        <div class="row"> 
+      <footer class="row margincustom">
         <div class="col-4">
-          Legal © 2019
+          <p class="footerheading"> <img src="./images/Bildschirmfoto 2020-11-13 um 15.07.41.png" alt="egg" height="20"></p>
+          <ul class="cleanlist">
+            <li>Legal © 2019</li>
+          </ul>
+        </div>
+        <div class="col-2 leftmargincustom3">
+          <p class="footerheading">Say</p> 
+          <ul class="cleanlist">
+            <li>hello@significa.co </li>
+            <li>(+351) 226 001 751</li>
+          </ul>
         </div>
         <div class="col-2">
-          Say hello@significa.co (+351) 226 001 751
+          <p class="footerheading">Links</p>
+          <ul class="cleanlist">
+          <li><span class="home">Home</span></li>
+          <li>Showcase</li>
+          <li>Services</li>
+          <li>About</li>
+          <li>Careers</li>
+          <li>Labs</li>
+          <li>Contact</li>
+          </ul> 
         </div>
         <div class="col-2">
-          Links Home Showcase Services About
-    Careers Labs Contact
+          <p class="footerheading">Network</p>
+          <ul class="cleanlist">
+            <li>Coletiv</li>
+            <li>Adamant</li>
+          </ul>
         </div>
         <div class="col-2">
-          Network Coletiv Adamant
-        </div>
-        <div class="col-2">
-          Follow us
-        </div>
-      
+          <p class="footerheading">Follow us</p>
+          <img src="./images/Bildschirmfoto 2020-11-13 um 14.55.48.png" alt="logos" height="20">
+        </footer>
   </body>
 </html>

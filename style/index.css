@@ -1,1 +1,170 @@
 /* Your own custom styles should be here */
+* {
+  font-family: 'Gothic A1', sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 3.2rem;
+}
+
+.navbar {
+  text-decoration: none;
+  color: black;
+}
+
+.navcustommargin {
+  margin: 3rem 4rem 0 5rem;
+}
+
+.h1custom {
+  height: 35rem;
+  margin: 4rem 0 0 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.h1followtextcustom {
+  margin: 10rem 0 0 0;
+  font-size: 1.5rem;
+}
+
+.leftmargincustom {
+  margin: 0 0 0 4rem;
+}
+
+.leftmargincustom2 {
+  margin: 0 0 0 9rem;
+}
+
+.leftmargincustom3 {
+  margin-left: -1.3rem;
+}
+
+.leftmargincustom5 {
+  margin-left: 5rem;
+}
+
+.rightmargincustom {
+  margin-right: 4rem;
+}
+
+.individualcardscustom {
+  margin: 0 4rem 0 0;
+}
+
+.card-title {
+  font-weight: 300;
+}
+
+.card-body {
+  font-weight: 300;
+}
+
+.topmargincustom {
+  margin-top: 6rem;
+}
+
+.margincustom {
+  margin: 12rem 0 2rem 4rem;
+}
+
+.customh3 {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2.7rem;
+}
+
+.customp {
+  font-size: 1.315rem;
+}
+
+.customh5 {
+  font-weight: 400;
+}
+
+.customcompetencieslist {
+  list-style-type: none;
+  font-size: 1.2rem;
+}
+.customcompetencieslist > li {
+  text-indent: -2.2rem;
+  line-height: 0.5rem;
+}
+.customcompetencieslist > li:before {
+  content: '-';
+  color: blue;
+  text-indent: -2rem;
+}
+
+.arrow {
+  font-weight: 100;
+}
+
+.singlelink {
+  display: flex;
+  justify-content: center;
+}
+
+.addedlink {
+  list-style-type: none;
+  margin: 4rem 0 11rem 0;
+  text-indent: -2.5rem;
+  font-size: 1.2rem;
+}
+
+.addedlink2 {
+  list-style-type: none;
+  margin: 4rem 0 5rem 0;
+  font-size: 1.2rem;
+}
+
+.customjumbotron {
+  height: 50rem;
+  color: rgb(230, 242, 245);
+}
+
+.significalabsnewsheader {
+  font-size: 2rem;
+  font-weight: 200;
+  margin: 6rem 0 0 4rem;
+}
+
+.significalabsnews {
+  font-size: 1rem;
+  font-weight: 200;
+  margin: 6rem 0 0 3.5rem;
+}
+
+.source {
+  font-size: 0.8rem;
+  padding-bottom: 2rem;
+  border-bottom: 0.1rem solid;
+  border-color: rgb(41, 40, 40);
+}
+
+.greylink {
+  text-decoration: none;
+  color: rgb(165, 167, 166);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.margintop {
+  margin-top: 5rem;
+}
+
+.cleanlist {
+  list-style-type: none;
+  text-indent: -2.5rem;
+  line-height: 1.6rem;
+}
+
+.footerheading {
+  font-size: 0.9rem;
+}
+
+.home {
+  color: lightgrey;
+}
